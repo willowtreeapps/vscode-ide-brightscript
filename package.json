@@ -1,6 +1,6 @@
 {
   "name": "vscode-ide-brightscript",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "BrightScript language support for Visual Studio Code.",
   "main": "./lib/extension",
   "repository": {

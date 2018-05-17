@@ -4,9 +4,7 @@
 
 VSCode editing support for Brightscript.
 
-<p align="center">
-    <img src="./artwork/showcase.gif"/>
-</p>
+![showcase](https://user-images.githubusercontent.com/2018617/40208763-556c6298-5a09-11e8-88b0-61bf1fe7dbbc.gif)
 
 # Features
 
