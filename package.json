@@ -34,7 +34,8 @@
         ],
         "extensions": [
           ".brs"
-        ]
+        ],
+        "configuration": "./brightscript-configuration.json"
       }
     ],
     "grammars": [
