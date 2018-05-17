@@ -34,14 +34,21 @@
         ],
         "extensions": [
           ".brs"
-        ]
+        ],
+        "configuration": "./brightscript-configuration.json"
       }
     ],
     "grammars": [
       {
         "language": "brightscript",
         "scopeName": "source.brightscript",
-        "path": "./BrightScript.tmLanguage"
+        "path": "./syntax/BrightScript.tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "brightscript",
+        "path": "./snippets/brightscript.json"
       }
     ]
   },

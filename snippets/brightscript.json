@@ -1,0 +1,103 @@
+{
+    "func": {
+        "prefix": "func",
+        "body": [
+            "function ${1:foo}() as ${2:object}",
+            "\t${0}",
+            "end function"
+        ],
+        "description": "Function with no arguments"
+    },
+    "func1": {
+        "prefix": "func1",
+        "body": [
+            "function ${1:name}(${2:param} as ${3:object}) as ${4:object}",
+            "\t${0}",
+            "end function"
+        ],
+        "description": "Function with 1 argument"
+    },
+    "sub": {
+        "prefix": "sub",
+        "body": [
+            "sub ${1:name}()",
+            "\t${0}",
+            "end function"
+        ],
+        "description": "Sub with no arguments"
+    },
+    "if": {
+        "prefix": "if",
+        "body": [
+            "if ${1:condition} then",
+            "\t${0}",
+            "end if"
+        ],
+        "description": "If statement"
+    },
+    "ife": {
+        "prefix": "ife",
+        "body": [
+            "if ${1:condition} then",
+            "\t${0}",
+            "else",
+            "end if"
+        ],
+        "description": "If statement with else"
+    },
+    "cif": {
+        "prefix": "cif",
+        "body": [
+            "#if ${1:condition} then",
+            "\t${0}",
+            "#end if"
+        ],
+        "description": "Conditionally compiled if statement"
+    },
+    "cife": {
+        "prefix": "cife",
+        "body": [
+            "#if ${1:condition} then",
+            "\t${0}",
+            "#else",
+            "#end if"
+        ],
+        "description": "Conditionally compiled if statement with else"
+    },
+    "while": {
+        "prefix": "while",
+        "body": [
+            "while(${1:condition})",
+            "\t${0}",
+            "end while"
+        ],
+        "description": "While loop"
+    },
+    "fore": {
+        "prefix": "fore",
+        "body": [
+            "for each ${1:item} in ${2:items}",
+            "\t${0}",
+            "end for"
+        ],
+        "description": "For each statement"
+    },
+    "fort": {
+        "prefix": "fort",
+        "body": [
+            "for ${1:expression} to ${2:value}",
+            "\t${0}",
+            "end for"
+        ],
+        "description": "For to statement"
+    },
+    "forts": {
+        "prefix": "forts",
+        "body": [
+            "for ${1:counter} = ${2:expr} to ${2:expr} step ${3: expr}",
+            "\t${0}",
+            "end for"
+        ],
+        "description": "For to statement with step"
+    }
+}
