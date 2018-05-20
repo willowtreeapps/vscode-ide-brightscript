@@ -53,7 +53,8 @@
     ]
   },
   "dependencies": {
-    "vscode-languageclient": "3.4.5",
+    "hoek": "^5.0.3",
+    "vscode-languageclient": "^3.4.5",
     "@willowtreeapps/hinoki": "^1.0.1"
   },
   "devDependencies": {
