@@ -22,7 +22,7 @@
         "body": [
             "sub ${1:name}()",
             "\t${0}",
-            "end function"
+            "end sub"
         ],
         "description": "Sub with no arguments"
     },
