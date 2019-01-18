@@ -14,7 +14,10 @@
     "vscode": ">=1.16.0"
   },
   "scripts": {
-    "compile": "./node_modules/typescript/bin/tsc -p ./",
+    "preinstall": "cd hinoki && npm i",
+    "client:compile": "./node_modules/typescript/bin/tsc -p ./",
+    "hinoki:compile": "cd hinoki && npm run compile",
+    "compile": "npm run hinoki:compile && npm run client:compile",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "update-vscode": "node ./node_modules/vscode/bin/install",
     "publish": "./node_modules/.bin/vsce publish",
@@ -53,7 +56,6 @@
     ]
   },
   "dependencies": {
-    "@willowtreeapps/hinoki": "^1.0.1",
     "hoek": "^5.0.3",
     "vscode-languageclient": "^3.4.5"
   },
