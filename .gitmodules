@@ -1,0 +1,3 @@
+[submodule "hinoki"]
+	path = hinoki
+	url = https://github.com/willowtreeapps/hinoki/
